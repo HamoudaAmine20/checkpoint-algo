@@ -1,0 +1,27 @@
+ALGORITHM sentence 
+VAR
+    p:STRING :='hello from GoMyCode .'; 
+    longeur:INTEGER;
+    i:INTEGER;
+    number_of_the_words:INTEGER:=0;
+    vowels = "aeiouAEIOU"
+    vowel_count = 0
+
+BEGIN
+  //The lenght of the paragraph
+    p.lenght
+    longeur:=p.lenght
+   //The number of words in the sentence
+    FOR i FROM 0 TO p.lenght STEP step  DO
+    IF (p[i]= " ") THEN
+    number_of_the_words:=number_of_the_words+1
+  END_IF
+    //The number of vowels in the sentence.
+IF (CHAR in vowels) THEN
+  vowel_count:=+1
+END_IF
+
+END_FOR
+
+
+END
